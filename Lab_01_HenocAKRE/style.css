@@ -1,0 +1,15 @@
+ 
+ table, th, td{
+            border: 1px solid white;
+            border-collapse: collapse;
+ }
+
+
+  body{
+	font-family:georgia, serif;
+	color: white;
+	background-image: url(background_lotr.jpg);
+}
+
+
+

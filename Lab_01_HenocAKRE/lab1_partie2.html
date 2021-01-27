@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="height:100%">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <STYLE type="text/css">
+           h3.NP {text-align: left;}
+           h3.alias{text-align: center;}
+           h3.CP{text-align: right;}
+           h2{color: red;}
+           th{color: red;}
+        </STYLE>
+    </head>
+    <body style="display:flex; flex-direction:column; height:100%; align-items:stretch;">
+        <div id="Header" style="flex-grow:1"><mark><a href="https://www.cegepjonquiere.ca/">Partie 1</a></mark></div>
+        <div id="Body" style="display:flex; flex-direction:row; flex-grow:3">
+            <div style="flex-grow: 1">
+                <form action="alainhenocakre@gmail.com" method="post">                    
+                   <p><div><label for="Prenom">Prenom: </label><input type="text" id="Prenom" ></div></p>
+                   <p><div><label for="Date">Date de naissance: </label><input type="text" id="date"  name="date" value="jj/mm/aaaa" onfocus="if(this.value=='jj/mm/aaaa'){this.value=''};" onblur="if(this.value==''){this.value='jj/mm/aaaa'};"/></div></p>
+                   <p><div><label>Numero de telephone: <input type="tel" name="tel" maxlength="10" pattern="^9[0-9]{7}"/></label></div></p>
+                   <p><div><label>Type de pizza: </label><select id="monoselect">
+                              <option value="value1" selected>Toute garnie</option>
+                              <option value="value2">Toute fine</option>
+                              <option value="value3">Toute épaisse</option>
+                      </select></div></p>
+                   <p><div><input id="html" name="html" type="button"> <label for="html">Extra champignons</label></div></p>
+                   <p><div><input id="html" name="html" type="button"> <label for="html">Extra peperoni</label></div></p>
+                   <p><div><input id="html" name="html" type="button"> <label for="html">Extra poivron</label></div></p>
+                   <p><div><input id="html" name="html" type="button"> <label for="html">Extra fromage</label></div></p>
+                   <p><div><button type="submit">Commander</button></div></p>
+                </form>
+            </div>
+
+            <div style="flex-grow:2">
+                <form action="alainhenocakre@gmail.com" method="post"> 
+                    <p><div><label for="Nom">Nom: </label><input type="text" id="Nom" ></div></p>
+                    <p><div><label for="email">Adresse courriel: </label><input type="email" id="email" size="30" required></div></p>
+                    <p><div><label for=adresse>Adresse de livraison: </label><textarea id=adresse name=adresse rows=5 required></textarea></div></p>
+                    <p><div><label>Type de croûte: </label>
+                    <p><div><input id="html" name="html" type="radio"> <label for="html">Croûte mince</label></div></p>
+                    <p><div><input id="html" name="html" type="radio"> <label for="html">Croûte mangeable</label></div></p>
+                    <p><div><input id="html" name="html" type="radio"> <label for="html">Croûte à l'ail</label></div></p>
+                    <p><div><input id="html" name="html" type="radio"> <label for="html">Croûte au poulet</label></div></p>
+                </form>
+            </div>
+        </div>
+
+        <div id="Footer" style="flex-grow: 3; text-align:end;">
+            <h3 class="NP">Henoc AKRE</H2>
+            <h3 class="alias">Razorback</H2>
+            <h3 class="CP">AKRH76...</H2>
+        </div>
+    </body>
+</html>
