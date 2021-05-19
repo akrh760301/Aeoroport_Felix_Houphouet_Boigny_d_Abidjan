@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Utilisateurs>
+    <Utilisateur>
+        <Nom>Akre</Nom>
+        <Prenom>Henoc Alain</Prenom>
+        <AdresseCourriel>henoc@gmail.com</AdresseCourriel>
+        <Mdp>1254</Mdp>
+    </Utilisateur>
+    <Utilisateur>
+        <Nom>Kouadio</Nom>
+        <Prenom>Gabriel</Prenom>
+        <AdresseCourriel>kouadio@hotmail.com</AdresseCourriel>
+        <Mdp>+826</Mdp>
+    </Utilisateur>
+    <Utilisateur>
+        <Nom>Lougbo</Nom>
+        <Prenom>Dagobert</Prenom>
+        <AdresseCourriel>Dagbo@yahoo.com</AdresseCourriel>
+        <Mdp>85221469</Mdp>
+    </Utilisateur>
+</Utilisateurs>

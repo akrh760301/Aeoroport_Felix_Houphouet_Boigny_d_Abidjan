@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Liens>
+    <Lien>
+        <NomFr>Voiture</NomFr>
+        <NomAn>Car</NomAn>
+        <link>https://www.chevrolet.ca/</link>
+    </Lien>
+    <Lien>
+        <NomFr>Maison</NomFr>
+        <NomAn>House</NomAn>
+        <link>https://soumissionscourtiers.ca/</link>
+    </Lien>
+    <Lien>
+        <NomFr>Ville</NomFr>
+        <NomAn>City</NomAn>
+        <link>https://www.ville.quebec.qc.ca/</link>
+    </Lien>
+</Liens>
